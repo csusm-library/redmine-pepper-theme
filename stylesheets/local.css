@@ -79,7 +79,7 @@ tr.parent span.expander {}
 table.projects-tree{width: auto;max-width: 1124px}
 .projects-tree .description{max-width:600px;}
 .projects-tree .modules{min-width:260px;}
-.projects-tree .created{display: none;}
+.projects-tree .created, .project-tree .description{display: none;}
 table.projects-tree th,table.projects-tree td{padding:5px;vertical-align: top;text-align: left;}
 .projects-tree tr.leaf td.name a {margin-left: 0!important;}
 
