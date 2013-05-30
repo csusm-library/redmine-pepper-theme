@@ -1,0 +1,119 @@
+body,h1,h2,h3,h4,p,ul,ol,li,div{font-family: helvetica,"helvetica neue",arial,sans-serif;}
+a,a:link,a:visited{text-decoration:none}
+#top-menu #account ul li{width:auto;color:#333;padding:5px}
+#top-menu #account,#top-menu #loggedas{position:relative}
+#top-menu #loggedas{border:none;padding:5px}
+
+#top-menu a,#top-menu a:hover,a:hover,a:active{text-decoration:none}
+tr.issue td.subject{width:20%;min-width:150px;font-weight:bold}
+.projects.root .description{margin-left:25px}
+#main-menu {bottom: -4px;}
+#header #main-menu ul a{margin: 10px 3px 0!important;padding:5px 13px 4px 28px;background-repeat:no-repeat; background-position:2px 50%;}
+#header #main-menu ul a.selected{background-color:#fff; border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;display:block;font-weight:bold;margin-bottom:-6px;border-radius:5px 5px 0px 0px}
+#header #main-menu ul{margin:0 0 -1px 9px}
+#header #main-menu ul li a.overview, #header #main-menu ul li a.overview:hover{background-image:url("/base/images/fugue/document-text24.png");}
+#header #main-menu ul li a.activity, #header #main-menu ul li a.activity:hover{background-image:url("/base/images/fugue/lightning24.png");}
+#header #main-menu ul li a.roadmap, #header #main-menu ul li a.roadmap:hover{background-image:url("/base/images/fugue/map24.png");}
+#header #main-menu ul li a.issues, #header #main-menu ul li a.issues:hover{background-image:url("/base/images/fugue/ticket.png");}
+#header #main-menu ul li a.new-issue, #header #main-menu ul li a.new-issue:hover{background-image:url("/base/images/fugue/ticket-plus24.png");}
+#header #main-menu ul li a.news, #header #main-menu ul li a.news:hover{background-image:url("/base/images/fugue/newspaper.png");}
+#header #main-menu ul li a.documents, #header #main-menu ul li a.documents:hover{background-image:url("/base/images/fugue/documents-multi-text24.png");}
+#header #main-menu ul li a.wiki, #header #main-menu ul li a.wiki:hover{background-image:url("/base/images/fugue/wiki24.png");}
+#header #main-menu ul li a.boards, #header #main-menu ul li a.boards:hover{background-image:url("/base/images/fugue/balloons.png");}
+#header #main-menu ul li a.files, #header #main-menu ul li a.files:hover{background-image:url("/base/images/fugue/document-zipper.png");}
+#header #main-menu ul li a.repository, #header #main-menu ul li a.repository:hover{background-image:url("/base/images/fugue/safe.png");}
+#header #main-menu ul li a.settings, #header #main-menu ul li a.settings:hover{background-image:url("/base/images/fugue/settings24.png");}
+#header #main-menu ul li a.deliverables, #header #main-menu ul li a.deliverables:hover, #header #main-menu ul li a.budget, #header #main-menu ul li a.budget:hover{background-image:url("/base/images/fugue/money--pencil.png");}
+#header #main-menu ul li a.bugcloud, #header #main-menu ul li a.bugcloud:hover{background-image:url("/base/images/fugue/tags-label.png");}
+#header #main-menu ul li a.meetings, #header #main-menu ul li a.meetings:hover{background-image:url("/base/images/group.png");}
+#header #main-menu ul li a.burndown, #header #main-menu ul li a.burndown:hover{background-image:url("/base/images/fugue/burn.png");}
+#header #main-menu ul li a.calendar, #header #main-menu ul li a.calendar:hover{background-image:url("/base/images/fugue/calendar.png");}
+#header #main-menu ul li a.charts, #header #main-menu ul li a.charts:hover{background-image:url("/base/images/fugue/monitor.png");}
+#header #main-menu ul li a.code-review, #header #main-menu ul li a.code-review:hover{background-image:url("/base/images/fugue/ruler--pencil.png");}
+#header #main-menu ul li a.customers, #header #main-menu ul li a.customers:hover{background-image:url("/base/images/fugue/user-business.png");}
+#header #main-menu ul li a.embedded, #header #main-menu ul li a.embedded:hover{background-image:url("/base/images/fugue/layout-select-content.png");}
+#header #main-menu ul li a.ezfaq, #header #main-menu ul li a.ezfaq:hover{background-image:url("/base/images/fugue/question-balloon.png");}
+#header #main-menu ul li a.treasures, #header #main-menu ul li a.treasures:hover{background-image:url("/base/images/fugue/trophy.png");}
+#header #main-menu ul li a.books, #header #main-menu ul li a.books:hover{background-image:url("/base/images/fugue/books-stack.png");}
+#header #main-menu ul li a.google-calendar, #header #main-menu ul li a.google-calendar:hover{background-image:url("/base/images/fugue/calendar-month.png");}
+#header #main-menu ul li a.invoice, #header #main-menu ul li a.invoice:hover, #header #main-menu ul li a.Invoices, #header #main-menu ul li a.Invoices:hover{background-image:url("/base/images/fugue/notebooks--pencil.png");}
+#header #main-menu ul li a.schedules, #header #main-menu ul li a.schedules:hover{background-image:url("/base/images/fugue/report--exclamation.png");}
+#header #main-menu ul li a.scores, #header #main-menu ul li a.scores:hover, #header #main-menu ul li a.Scores, #header #main-menu ul li a.Scores:hover{background-image:url("/base/images/fugue/ui-progress-bar.png");}
+#header #main-menu ul li a.gantt, #header #main-menu ul li a.gantt:hover, #header #main-menu ul li a.Gnatt, #header #main-menu ul li a.Gantt:hover{background-image:url("/base/images/fugue/gantt.png");}
+#header #main-menu ul li a.scrum, #header #main-menu ul li a.scrum:hover{background-image:url("/base/images/fugue/projection-screen--pencil.png");}
+#header #main-menu ul li a.dashboard, #header #main-menu ul li a.dashboard:hover{background-image:url("/base/images/fugue/dashboard--pencil.png");}
+#header #main-menu ul li a.simple-ci, #header #main-menu ul li a.simple-ci:hover, #header #main-menu ul li a.Integration, #header #main-menu ul li a.Integration:hover{background-image:url("/base/images/fugue/pill--exclamation.png");}
+#header #main-menu ul li a.Status.Updates, #header #main-menu ul li a.Status.Updates:hover, #header #main-menu ul li a.statuses, #header #main-menu ul li a.statuses:hover{background-image:url("/base/images/fugue/tick-shield.png");}
+#header #main-menu ul li a.tab, #header #main-menu ul li a.tab:hover{background-image:url("/base/images/fugue/layout-2.png");}
+#header #main-menu ul li a.task-board, #header #main-menu ul li a.task-board:hover{background-image:url("/base/images/fugue/dashboard--pencil.png");}
+#header #main-menu ul li a.todos, #header #main-menu ul li a.todos:hover, #header #main-menu ul li a.todo-lists, #header #main-menu ul li a.todo-lists:hover{background-image:url("/base/images/fugue/hammer--arrow.png");}
+
+#content > .contextual{margin-right:16px}
+
+
+/* Issues - signle item display */
+
+.controller-issues  .tabular p {padding: 3px 0 3px 95px;}
+.controller-issues  .splitcontent{max-width: 990px}
+.splitcontentleft {width: 38%;}
+.splitcontentright {width: 58%;}
+input#issue_subject{max-width:600px;margin-bottom:20px;}
+#full-desc-wrapper{max-width:700px}
+#issue_description{max-width:600px;height:60px;margin-bottom:10px;}
+#issue-status-wrapper{float: left}
+#priority-wrapper{float:right;padding: 0 0 0 50px;clear:none;}
+#assigned-wrapper{float:right;}
+#issue_fixed_version_id,#assigned-wrapper #issue_assigned_to_id{max-width:80px;}
+#parent_issue,#start-date-wrapper,#due-date-wrapper{float:left;padding-right:5px;}
+#estimated-hours-wrapper,#done-ratio-wrapper{float:right;clear: none;float: right;margin-top: -75px;width: 36%;}
+#done-ratio-wrapper{margin-top: -40px;}
+#done-ratio-wrapper select#issue_done_ratio{width: 47px;}
+#attachments_form{margin-top:20px;}
+form input[name="commit"]{margin-left:95px;}
+
+
+/* Projects List */
+
+tr.parent span.expander {}
+.list .project{margin-left:20px;}
+table.projects-tree{width: auto;max-width: 1124px}
+.projects-tree .description{max-width:600px;}
+.projects-tree .modules{min-width:260px;}
+.projects-tree .created{display: none;}
+table.projects-tree th,table.projects-tree td{padding:5px;vertical-align: top;text-align: left;}
+.projects-tree tr.leaf td.name a {margin-left: 0!important;}
+
+
+/*Project overview*/
+
+.controller-projects .splitcontentleft{width:70%}
+.controller-projects .splitcontentright{width:24%}
+
+
+/* Wiki Formatting */
+
+.wiki.wiki-page{margin:24px 12px}
+.wiki-page h2{margin:24px 0 12px;font-size:1.66em;font-family:Arial, Helvetica, sans-serif}
+#wiki_add_attachment{margin:36px 12px 16px}
+
+
+/* Issues table */
+
+.controller-my td.project{width:15%}
+.controller-my td.project{width:5%}
+.controller-my tr.issue td.subject{width:80%}
+
+
+/*Issues table in project overview */
+
+.controller-projects table.list table.progress {display:none;border: 1px solid #D7D7D7;border-collapse: collapse;border-spacing: 0;empty-cells: show;float: left;margin: 1px 6px 1px 0;text-align: center;}
+
+
+/* Meetings */
+
+.icon-time-add{width:17px;height:17px;margin:2px 0 0 10px}
+
+
+/* Watchers pick list */
+
+#users_for_watcher label{text-align:left;}
